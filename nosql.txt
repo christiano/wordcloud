@@ -1,0 +1,14 @@
+O desafio
+Manipular grandes volumes de dados, com diferentes formatos, num tempo de resposta adequado é um desafio que precisa de ferramentas e abordagens distintas do tradicionalmente utilizado.
+Neste cenário surgem dois grandes aliados introduzindo dois novos conceitos: NoSQL e o Hadoop.
+ 
+ NoSQL
+ Atualmente os sistemas de bancos de dados relacionais ou SQL são o padrão do mercado e sem dúvida são os mais adequados quanto tratamos com dados estruturados e suas aplicações.
+ Entretanto, quando formos considerar dados não estruturados, é necessária uma nova abordagem como a introduzida pelos sistemas de bancos de dados Not only SQL ou NoSQL. Neste novo cenário temos novas ferramentas para armazenamento, distribuição e crescimento escalável que acabam por se tornar uma das ferramentas que viabilizam o Big Data.
+ A Propus Data Science atua com diversos Bancos de Dados NoSQL e é parceira oficial no Brasil da MongoDB. Nossa expertise é identificar quais os Bancos de Dados mais adequados a sua necessidade e auxilia-lo no domínio desta nova tecnologia.
+  
+  Hadoop
+  O Apache Hadoop®  é uma plataforma em código aberto reconhecido atualmente como a melhor alternativa para construção de um ambiente Big Data pela flexibilidade em dispor de ferramentas para processamento massivo, distribuído e com tolerâncias a falhas, utilizando servidores padrão de mercado em instalações on premise ou cloud.
+  Por ser uma plataforma, o Hadoop permite que sejam agregados uma série de componentes desenvolvidos na sua maioria por outros projetos da  Apache Software Foundation, como Pig, Hive, HBase entre outros. Cada componente foi desenvolvido para entregar uma função explícita, e cada um tem sua própria comunidade de desenvolvedores e ciclos de lançamentos individuais. Esta abordagem permite criar uma infraestrutura extremamente flexível quando ao seu propósito permitindo que cada implementação seja focada para o melhor desempenho nas tarefas a que se destina.
+  A Propus Data Science é parceira oficial no Brasil da Hortonworks, atual líder mundial em contribuições para o projeto Hadoop e mantenedora da distribuição Hadoop de mesmo nome.
+  Conte conosco para identificar qual a melhor configuração de Hadoop adequada a sua necessidade e auxilia-lo no domínio desta nova tecnologia.
