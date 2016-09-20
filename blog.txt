@@ -1,0 +1,47 @@
+O assunto está na moda, muitos estão falando de data science ou ciência dos dados, alguns já começaram a trabalhar de fato com isso e muita gente tem curiosidade e não sabe como começar. O assunto é amplo, exige um vasto conhecimento de matemática, programação, infraestrutura e estrutura de dados. Sim, é um mercado de trabalho crescente, muitas vagas e pouca gente qualificada. 
+
+O que é data science ou ciência de dados?
+
+Estamos armazenando muita informação e isso aumenta quase que exponencialmente. Fazer uma compra online, publicar uma opinião nas redes sociais, postar uma foto, reclamar de um produto ou serviço, comentar algum evento ou acontecimento do momento são exemplos de informação, que também são dados. A internet das coisas (IoT) já é uma realidade e se popularizou muito, dispositivos IoT já nascem conectados e geram muita informação. 
+
+A ciência dos dados possibilita trabalhar com informações muito diferentes (uma foto, um comentário no Twitter, uma reclamação de produto, um comentário no Facebook de algum serviço, dados de um dispositivo IoT, etc), organizar essa informação, classificar e a partir dai, identificar padrões, comportamentos e até prever a probabilidade de um acontecimento futuro. 
+
+O que faz um cientista de dados?
+
+Cientista de dados é o profissional que domina técnicas para tornar tudo isso uma realidade. O cientista de dados não é apenas um profissional técnico, ele precisa conhecer o modelo de negócio, saber fazer perguntas e utilizar essa imensidão de dados para obter respostas rápidas, confiáveis. Organizar, classificar, aplicar modelos matemáticos e criar visualizações é o papel esperado de um cientista de dados. A resposta precisa ser simples, a visualização precisa ter uma linguagem clara e fazer sentido para o modelo de negócio de cada empresa. 
+
+O que um cientista de dados precisa conhecer?
+
+Basicamente um pouco de matemática, programação, infraestrutura, modelagem de dados e business. As tecnologias citadas são baseadas em minhas próprias experiências, são tecnologias que utilizo para conseguir fazer perguntas e identificar as respostas certas com base em cada negócio. 
+
+Conhecimento em matemática
+
+Álgebra linear é algo fundamental na ciência de dados. O uso de matrizes, vetores e suas propriedades é algo necessário para conseguir organizar e cruzar tantas informações diferentes. Isso é rotina na vida de um cientista de dados!
+
+Estatística e probabilidade é outro ramo da matemática que requer uma atenção especial. Estatística é um assunto amplo, o conhecimento básico é essencial, mas também um conhecimento um pouco mais aprofundado em técnicas de apresentação, gráficos, tabelas e saber fazer inferências estatísticas é um grande diferencial. Nada adianta ter um volume considerável de dados se não consegue apresentar esses dados em linguagem clara e direta. É aí que o conhecimento em estatística ajuda muito. 
+
+Linguagem de programação
+
+Amassar os dados requer um conhecimento de programação. No meu caso, uso muito Python e um pouco de R para algumas situações. Como meu domínio maior está em Python, é nessa linguagem que concentro boa parte de meu trabalho. Vale lembrar que Python é uma das linguagens que mais crescem quando o assunto é data science. Algumas ferramentas e bibliotecas essenciais para data science:
+
+Jupyter notebook: É muito produtivo quando você pode visualizar rapidamente o que está sendo feito, para isso o conceito de notebooks ajuda bastante. O Jupyter permite também ser executado em um servidores e cluster, o que é indispensável quando se trabalhar com um dataset muito grande. 
+Pandas: É uma biblioteca de Python para manusear e conhecer datasets. Quando se obtém alguma informação nova, é necessário explorar, identificar alguns padrões para a partir deste ponto decidir o que pode ser feito. Neste caso Pandas ajuda muito. 
+NumPy: A estrutura da linguagem Python já ajuda muito no trabalho com dados, mas quando o volume é muito grande, NumPy pode ser a salvação. Lembra da álgebra linear citada anteriormente? NumPy permite trabalhar com arrays, vetores, matrizes e realizar operações com muito mais performance, inclusive métodos mais avançados como transformações Fourier, etc. 
+Matplotlib: Depois de explorar o dataset, realizar algumas operações com Pandas e/ou NumPy, é necessário visualizar esses dados. Matplotlib é excelente neste sentido, uma biblioteca bastante completa, possível tanto plotar funções matemáticas quanto gráficos de N formatos diferentes. Seu uso com Jupyter notebook é sensacional. Dentro de cada célula é possível enriquecer com gráficos. Se utilizada com as bibliotecas a seguir, o resultado fica ainda mais rico;
+Bokeh: Comecei a trabalhar há pouco tempo com o Bokeh, mas já é claro seu potencial, pois utiliza D3.JS para criação de gráficos ricos e interativos no browser.
+Seaborn: Uma outra biblioteca que ainda estou explorando, mas que tem um grande potencial. Os gráficos são bonitos e tem um foco mais estatístico, sendo possível customizar bem cada gráfico. 
+Scikit-learn: Este é um assunto que requer um post a parte, pois trata de machine learning. Com Scikit-learn é possível realizar regressão, progressão, agrupamento (clustering) e aprendizado de máquina. É um assunto amplo e a biblioteca possui diversos algoritmos, cada um para uma finalidade específica. Quero escrever um post apenas sobre Scikit-learn (e farei em breve);
+NLTK: Quando se trabalha com textos e conteúdo de usuários é essencial saber o que extrair de informações úteis. NLTK representa um toolkit para trabalhar com linguagem natural, isso é, classificar um texto, extrair verbos, stopwords, aproximar palavras e identificar padrões linguísticos, tudo isso é possível com NLTK.
+Basicamente são essas bibliotecas/ferramentas que utilizo na linguagem Python, mas o universo de bibliotecas é muito maior. 
+
+Minha máquina de trabalho é Linux e uso a distribuição Fedora, por ter um ciclo de lançamento regular (6 meses) e possuir pacotes bem atualizados. Mas para quem utiliza Mac ou Windows, procure pela distribuição Python Anaconda, esta distribuição possui todos os pacotes e dependências que citei acima, a instalação é muito simples! 
+
+Infraestrutura
+
+Trabalhar com datasets enormes exige infraestrutura para suportar. Domínio de Linux é muito importante, saber instalar as diversas bibliotecas acima e suas dependências, utilizar sistemas de persistência para cada caso é também muito importante. Neste quesito aproveito para citar a importância dos bancos não relacionais (NoSQL), como:
+
+MongoDB: orientado a documentos (você encontra muitos artigos de MongoDB neste blog);
+Neo4J: grafos;
+HBase: paradigma de colunas;
+Redis: Chave/Valor;
+ArangoDB: Multimodelagem, suporta tanto documentos quanto grafos;
